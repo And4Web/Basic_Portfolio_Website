@@ -26,7 +26,9 @@
   padding: 5px;
 }
 .logo a span {
+  font-family: "Lobster", cursive;
   font-size: 1.5rem;
+  color: rgb(120, 120, 241);
 }
 
 .menuBar {
