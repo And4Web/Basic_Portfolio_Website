@@ -33,17 +33,18 @@
 
 .menuBar {
   display: flex;
-  flex: row;
+  flex-direction: row;
 }
 
 .menuItems {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 li {
-  margin: 5px, 75px;
-  padding: 25px;
   list-style: none;
   font-size: large;
 }
@@ -52,3 +53,35 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.menu {
+  margin: 15px;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: rgb(214, 214, 231);
+}
+
+.footer {
+  background-color: rgb(235, 243, 243);
+  height: 50px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+
+  background-attachment: fixed;
+}
+
+/* .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social .icon a {
+  margin: 5px, 50px;
+  padding: 2px;
+}
+.social .icon a img {
+  height: 35px;
+  width: 35px;
+} */
