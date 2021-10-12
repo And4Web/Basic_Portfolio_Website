@@ -60,15 +60,31 @@ a {
   border-radius: 20px;
   background-color: rgb(214, 214, 231);
 }
+.banner {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.banner .banner-img img {
+  height: 100%;
+  width: 50%;
+}
 
+.banner .banner-title h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+}
 .footer {
   background-color: rgb(235, 243, 243);
   height: 50px;
   width: 100%;
-  display: inline-block;
-  text-align: center;
-
-  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .social {
