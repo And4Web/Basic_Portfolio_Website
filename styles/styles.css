@@ -133,6 +133,70 @@ a {
 
 /* About Ends Here */
 
+/* Projects Starts Here */
+
+.projects {
+  /* height: 40%;
+  width: 100%; */
+  display: flex;
+  flex-direction: row;
+}
+.projects-img {
+  /* background-color: cadetblue; */
+  width: 50%;
+}
+.projects .projects-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.projects-title {
+  width: 50%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects .projects-title h1 {
+  font-size: 6rem;
+}
+
+/* Projects Ends Here */
+
+/* Articles Start here */
+
+.articles {
+  /* height: 40%;
+  width: 100%; */
+  display: flex;
+  flex-direction: row;
+}
+.articles-img {
+  /* background-color: cadetblue; */
+  width: 50%;
+}
+.articles .articles-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.articles-title {
+  width: 50%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.articles .articles-title h1 {
+  font-size: 6rem;
+}
+
+/* Articles Ends here */
+
 /* Footer Starts Here */
 
 .footer {
