@@ -32,6 +32,9 @@
   font-size: 1.5rem;
   color: rgb(120, 120, 241);
 }
+.logo a .main-title:hover {
+  font-size: 1.8rem;
+}
 
 /* Main logo Ends Here */
 
@@ -61,10 +64,21 @@ a {
 }
 
 .menu {
+  height: 35px;
+  width: 95px;
   margin: 15px;
+  text-align: center;
   padding: 8px;
-  border-radius: 20px;
+  border-radius: 12px;
   background-color: rgb(214, 214, 231);
+}
+
+.menu:hover {
+  transform: scale(1.2, 1.2);
+  background-color: rgb(121, 117, 117);
+}
+.menu a:hover {
+  color: white;
 }
 
 /* Menubar Ends Here */
@@ -76,6 +90,8 @@ a {
   width: 100%; */
   display: flex;
   flex-direction: row;
+  margin: 75px;
+  padding: 15px;
 }
 .banner-img {
   /* background-color: cadetblue; */
@@ -108,6 +124,8 @@ a {
   width: 100%; */
   display: flex;
   flex-direction: row;
+  margin: 75px;
+  padding: 15px;
 }
 .about-img {
   /* background-color: cadetblue; */
@@ -133,6 +151,40 @@ a {
 
 /* About Ends Here */
 
+/* Skills Starts Here */
+
+.skills {
+  /* height: 40%;
+  width: 100%; */
+  display: flex;
+  flex-direction: row;
+  margin: 75px;
+  padding: 15px;
+}
+.skills-img {
+  /* background-color: cadetblue; */
+  width: 50%;
+}
+.skills .skills-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.skills-title {
+  width: 50%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .skills-title h1 {
+  font-size: 6rem;
+}
+
+/* Skills Ends Here */
+
 /* Projects Starts Here */
 
 .projects {
@@ -140,6 +192,8 @@ a {
   width: 100%; */
   display: flex;
   flex-direction: row;
+  margin: 75px;
+  padding: 15px;
 }
 .projects-img {
   /* background-color: cadetblue; */
@@ -165,6 +219,40 @@ a {
 
 /* Projects Ends Here */
 
+/* Services Starts Here */
+
+.services {
+  /* height: 40%;
+  width: 100%; */
+  display: flex;
+  flex-direction: row;
+  margin: 75px;
+  padding: 15px;
+}
+.services-img {
+  /* background-color: cadetblue; */
+  width: 50%;
+}
+.services .services-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.services-title {
+  width: 50%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .services-title h1 {
+  font-size: 6rem;
+}
+
+/* Services Ends Here */
+
 /* Articles Start here */
 
 .articles {
@@ -172,6 +260,8 @@ a {
   width: 100%; */
   display: flex;
   flex-direction: row;
+  margin: 75px;
+  padding: 15px;
 }
 .articles-img {
   /* background-color: cadetblue; */
