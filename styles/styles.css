@@ -27,13 +27,15 @@
   margin: 5px;
   padding: 5px;
 }
-.logo a span {
+.logo span {
   font-family: "Lobster", cursive;
   font-size: 1.5rem;
   color: rgb(120, 120, 241);
 }
-.logo a .main-title:hover {
-  font-size: 1.8rem;
+.main-title:hover {
+  font-size: 2rem;
+  cursor: pointer;
+  color: blueviolet;
 }
 
 /* Main logo Ends Here */
