@@ -76,8 +76,11 @@ a {
 .menu:hover {
   transform: scale(1.2, 1.2);
   background-color: rgb(121, 117, 117);
+  color: white;
+  cursor: pointer;
 }
-.menu a:hover {
+
+a:hover {
   color: white;
 }
 
