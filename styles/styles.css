@@ -300,20 +300,42 @@ a:hover {
 /* Footer Starts Here */
 
 .footer {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; */
+  justify-content: space-around;
+  align-items: center;
   background-color: rgb(235, 243, 243);
   height: 350px;
   width: 100%;
+}
+
+.footer .footer-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footer-elements .footer-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* background-color: blue; */
+  width: 50%;
+}
+.footer .footer-elements .footer-menubar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
-.footer .footer-about {
+.footer .footer-elements .footer-menubar .footer-menus .footer-menuItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 23px;
 }
 
 /* Footer Ends Here */
