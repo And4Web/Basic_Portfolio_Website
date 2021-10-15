@@ -308,6 +308,14 @@ a:hover {
   height: 350px;
   width: 100%;
 }
+.vertical {
+  margin: 10px;
+  padding: 10px;
+  border-left: 1.5px solid black;
+  height: 200px;
+  position: absolute;
+  /* left: 50%; */
+}
 
 .footer .footer-elements {
   /* background-color: darkorange; */
