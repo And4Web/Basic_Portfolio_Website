@@ -83,14 +83,17 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 12px;
+  box-shadow: 1px 1px 8px gray;
   /* background-color: rgb(214, 214, 231); */
 }
 
 .menu:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(1.2, 1.2);
   background-color: rgb(214, 214, 231);
   color: blueviolet;
+
   cursor: pointer;
+  box-shadow: 1px 1px 4px gray;
 }
 
 a:hover {
