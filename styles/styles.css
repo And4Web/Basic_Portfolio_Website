@@ -11,14 +11,16 @@
   /* background-color: rgb(235, 243, 243); */
   background-image: linear-gradient(
     to right,
-    rgb(235, 243, 243),
+    rgb(165, 197, 217),
     rgb(200, 220, 230),
-    rgb(165, 197, 217)
+    rgb(235, 243, 243)
   );
   color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
 
 /* Main logo Starts Here */
@@ -82,7 +84,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: 1px 1px 8px gray;
   /* background-color: rgb(214, 214, 231); */
 }
@@ -316,11 +318,11 @@ a:hover {
   /* background-color: rgb(235, 243, 243); */
   background-image: linear-gradient(
     to right,
-    rgb(235, 243, 243),
+    rgb(165, 197, 217),
     rgb(200, 220, 230),
-    rgb(165, 197, 217)
+    rgb(235, 243, 243)
   );
-  height: 350px;
+  height: 355px;
   width: 100%;
 }
 .vertical {
@@ -343,6 +345,8 @@ a:hover {
 
 .footer .footer-elements .footer-about {
   /* background-color: darkkhaki; */
+  margin: 5px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -351,6 +355,8 @@ a:hover {
 }
 .footer .footer-elements .footer-gadgets {
   /* background-color: cadetblue; */
+  margin: 5px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -369,6 +375,8 @@ a:hover {
 }
 .footer .footer-elements .footer-menubar {
   /* background-color: coral; */
+  margin: 5px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -383,7 +391,8 @@ a:hover {
   align-items: flex-start;
   padding: 35px;
 }
-
+.footer .copyright {
+}
 /* Footer Ends Here */
 
 /* .social {
