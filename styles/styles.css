@@ -123,7 +123,7 @@ a:hover {
   width: 100%; */
   display: flex;
   flex-direction: row;
-  margin: 75px;
+  margin: 55px 5px;
   padding: 15px;
 }
 .banner-img {
@@ -146,6 +146,45 @@ a:hover {
 
 .banner .banner-title h1 {
   font-size: 6rem;
+}
+
+.hello {
+  display: flex;
+  padding: 5px 25px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+.hello h1 {
+  margin: 0 15px;
+  padding: 5px;
+  color: orange;
+}
+.hello h2 {
+  /* background-color: blueviolet; */
+  font-size: 1.7em;
+  position: relative;
+  top: 10px;
+}
+.hello h2:after {
+  content: "";
+  display: block;
+  width: 275px;
+  border: 2px solid orange;
+}
+.intro {
+  /* background-color: cornflowerblue; */
+  font-size: 1.4em;
+  /* display: flex; */
+  padding: 15px 25px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.intro span {
+  /* background-color: darkgoldenrod; */
+  color: orange;
 }
 
 /* Banner Ends Here */
