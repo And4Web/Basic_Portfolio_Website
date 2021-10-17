@@ -139,10 +139,11 @@ a:hover {
 }
 .banner-img .banner-back {
   position: relative;
-  top: 207px;
+  top: 417px;
   height: 145px;
   width: 100%;
-  background-color: bisque;
+  background-image: linear-gradient(to right, orange, bisque, pink, white);
+  border-radius: 50%;
   z-index: -2;
 }
 .banner .banner-img img {
@@ -157,6 +158,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: -1;
 }
 
 .banner .banner-title h1 {
@@ -169,7 +171,6 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
 }
 .hello h1 {
   margin: 0 15px;
