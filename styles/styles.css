@@ -173,7 +173,7 @@ a:hover {
   border-bottom: 5px solid orange;
   border-radius: 20px;
   position: relative;
-  top: -65px;
+  top: -125px;
   display: flex;
   padding: 15px 25px;
   flex-direction: row;
@@ -211,7 +211,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -45px;
+  top: -105px;
 }
 .intro span {
   /* background-color: darkgoldenrod; */
@@ -230,7 +230,24 @@ a:hover {
   color: rgb(51, 35, 5);
   text-shadow: 1px 1px 5px rgb(134, 122, 11);
 }
-
+.btn {
+  height: 35px;
+  width: 95px;
+  margin: 25px;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  top: -325px;
+  right: -850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grad1);
+  border: none;
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px gray;
+}
 /* Banner Ends Here */
 
 /* About starts Here */
