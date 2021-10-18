@@ -181,6 +181,7 @@ a:hover {
   align-items: center;
   box-shadow: 3px 3px 15px gray;
 }
+
 .hello h1 {
   margin: 0 15px;
   padding: 5px;
@@ -199,11 +200,13 @@ a:hover {
   width: 275px;
   border: 2px solid orange;
 }
+
 .intro {
   /* background-color: cornflowerblue; */
   font-size: 1.4em;
   /* display: flex; */
-  padding: 15px 25px;
+  width: 100%;
+  padding: 15px 15px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -213,6 +216,19 @@ a:hover {
 .intro span {
   /* background-color: darkgoldenrod; */
   color: orange;
+  text-shadow: 1px 1px 15px gray;
+}
+.intro .full-stack {
+  /* background-color: darkgoldenrod; */
+  color: rgb(51, 35, 5);
+  text-shadow: 1px 1px 5px rgb(134, 122, 11);
+}
+.intro .sql {
+  /* background-color: darkgoldenrod; */
+  position: relative;
+  left: calc(100% - 85%);
+  color: rgb(51, 35, 5);
+  text-shadow: 1px 1px 5px rgb(134, 122, 11);
 }
 
 /* Banner Ends Here */
