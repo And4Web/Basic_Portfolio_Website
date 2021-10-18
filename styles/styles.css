@@ -235,8 +235,9 @@ a:hover {
   width: 95px;
   margin: 25px;
   padding: 10px;
-  color: white;
+  color: black;
   font-size: 18px;
+  /* font-weight: bold; */
   position: relative;
   top: -325px;
   right: -850px;
@@ -245,8 +246,18 @@ a:hover {
   align-items: center;
   background-color: var(--grad1);
   border: none;
-  border-radius: 25px;
+  border-bottom: 2px solid var(--grad3);
+  border-radius: 15px;
   box-shadow: 2px 2px 15px gray;
+}
+.btn:hover {
+  background-color: var(--menuhover);
+  color: white;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+  transition: 0.3s ease-in;
+  box-shadow: 1px 1px 15px var(--logotitle);
 }
 /* Banner Ends Here */
 
