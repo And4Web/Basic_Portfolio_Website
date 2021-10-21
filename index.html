@@ -241,13 +241,11 @@
         "November",
         "December",
       ];
-      let seconds = setInterval(counterSecond, 1000);
+      // let timeCurrent = setInterval(timer, 1000);
 
-      function counterSecond() {
-        let fullDate = new Date();
-        let count = 0;
-        return count + fullDate.getSeconds();
-      }
+      // function timer() {
+      //   fullDate.toLocaleTimeString();
+      // }
 
       document.getElementById("footer-clock").innerHTML =
         fullDate.getDate() +
@@ -262,8 +260,9 @@
         ":" +
         fullDate.getMinutes() +
         ":" +
-        seconds;
-      // fullDate.getSeconds();
+        // timeCurrent;
+        // seconds;
+        fullDate.getSeconds();
     </script>
   </body>
 </html>
