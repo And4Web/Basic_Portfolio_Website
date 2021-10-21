@@ -207,7 +207,7 @@
 
       <div class="copyright">
         <hr />
-        Copyright &copy; 2021 And4Web I&CT Pvt Ltd . All Rights Reserved.
+        Copyright &copy; 2021 And4Web I&CT Pvt Ltd. All Rights Reserved.
       </div>
     </footer>
 
@@ -241,6 +241,13 @@
         "November",
         "December",
       ];
+      let seconds = setInterval(counterSecond, 1000);
+
+      function counterSecond() {
+        let fullDate = new Date();
+        let count = 0;
+        return count + fullDate.getSeconds();
+      }
 
       document.getElementById("footer-clock").innerHTML =
         fullDate.getDate() +
@@ -255,7 +262,8 @@
         ":" +
         fullDate.getMinutes() +
         ":" +
-        fullDate.getSeconds();
+        seconds;
+      // fullDate.getSeconds();
     </script>
   </body>
 </html>
