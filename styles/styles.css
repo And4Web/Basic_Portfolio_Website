@@ -446,7 +446,7 @@ a:hover {
     var(--grad2),
     var(--grad3)
   ); */
-  height: 355px;
+  /* height: 355px; */
   width: 100%;
 }
 .vertical {
@@ -463,7 +463,7 @@ a:hover {
   margin: 55px 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
