@@ -184,7 +184,9 @@
         <div class="footer-gadgets">
           <div class="footer-clock">
             <h4>Current Date and Time in your Area is:<br /></h4>
-            <div id="footer-clock" class="clock"></div>
+            <div class="clock">
+              <p id="footer-clock"></p>
+            </div>
           </div>
           <div class="footer-visiterCount">
             Thanks for visiting this page, You are the 13 th visitor today and
@@ -214,56 +216,7 @@
     <!-- Footer Ends Here -->
 
     <!-- <script src="./scripts/script.js"></script> -->
-    <script>
-      let fullDate = new Date();
-      let monthNum = fullDate.getMonth();
-      let dayNum = fullDate.getDay();
-      let dayArr = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-      ];
-      let monthArr = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December",
-      ];
-      // let timeCurrent = setInterval(timer, 1000);
-
-      // function timer() {
-      //   fullDate.toLocaleTimeString();
-      // }
-
-      document.getElementById("footer-clock").innerHTML =
-        fullDate.getDate() +
-        "-" +
-        monthArr[monthNum] +
-        "-" +
-        fullDate.getFullYear() +
-        ", " +
-        dayArr[dayNum] +
-        ", " +
-        fullDate.getHours() +
-        ":" +
-        fullDate.getMinutes() +
-        ":" +
-        // timeCurrent;
-        // seconds;
-        fullDate.getSeconds();
-    </script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
 

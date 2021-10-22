@@ -440,12 +440,12 @@ a:hover {
   justify-content: center;
   align-items: center;
   /* background-color: rgb(235, 243, 243); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     var(--grad1),
     var(--grad2),
     var(--grad3)
-  );
+  ); */
   height: 355px;
   width: 100%;
 }
@@ -476,6 +476,10 @@ a:hover {
   justify-content: space-between;
   align-items: flex-start;
   width: 50%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px gray;
+  background-color: var(--grad2);
 }
 .footer .footer-elements .footer-gadgets {
   /* background-color: cadetblue; */
@@ -486,11 +490,26 @@ a:hover {
   justify-content: space-between;
   align-items: flex-start;
   width: 50%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px gray;
+  background-color: var(--grad2);
 }
 .footer .footer-elements .footer-gadgets .footer-clock {
   /* background-color: blueviolet; */
   margin: 15px 15px;
   padding: 15px;
+  position: relative;
+  top: 0px;
+}
+.footer .footer-elements .footer-gadgets .footer-clock .clock {
+  /* background-color: blueviolet; */
+  margin: 15px 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px gray;
+  background-color: var(--grad3);
 }
 .footer .footer-elements .footer-gadgets .footer-visiterCount {
   /* background-color: blanchedalmond; */
@@ -506,6 +525,10 @@ a:hover {
   justify-content: center;
   align-items: center;
   width: 50%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px gray;
+  background-color: var(--grad2);
 }
 .footer .footer-elements .footer-menubar .footer-menus .footer-menuItems {
   /* background-color: cyan; */
