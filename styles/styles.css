@@ -92,6 +92,7 @@ a {
 }
 
 .menu {
+  background-color: var(--grad1);
   height: 25px;
   width: 75px;
   margin: 20px;
@@ -100,6 +101,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid var(--grad3);
   border-radius: 5px;
   box-shadow: 1px 1px 8px gray;
   /* background-color: rgb(214, 214, 231); */
@@ -111,6 +113,7 @@ a {
   background-color: var(--menuhover);
   color: rgb(238, 228, 248);
   cursor: pointer;
+  border-bottom: 2px solid black;
   box-shadow: 1px 1px 4px gray;
 }
 
