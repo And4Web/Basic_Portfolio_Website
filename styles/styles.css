@@ -202,12 +202,15 @@ a:hover {
   /* top: 10px; */
   left: 10px;
 }
-/* .hello h2:after {
+.hello h2:after {
   content: "";
   display: block;
-  width: 275px;
-  border: 2px solid orange;
-} */
+  height: 3.5px;
+  width: 50%;
+  /* border: 2px solid rgb(0, 140, 255); */
+  border-radius: 50%;
+  background-image: linear-gradient(to right, blue, lightblue);
+}
 
 .intro {
   /* background-color: cornflowerblue; */
